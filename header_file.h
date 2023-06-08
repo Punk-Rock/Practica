@@ -1,0 +1,1 @@
+int sum_pos(int a, int b);

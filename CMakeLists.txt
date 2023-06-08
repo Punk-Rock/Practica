@@ -1,0 +1,5 @@
+add_executable (Practica "main.cpp" "header_file.h" "test.cpp")
+
+if (CMAKE_VERSION VERSION_GREATER 3.12)
+  set_property(TARGET neural_network PROPERTY CXX_STANDARD 20)
+endif()
